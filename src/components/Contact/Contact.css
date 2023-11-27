@@ -1,0 +1,46 @@
+.Contact {
+    height: 100%;
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.Contact .textContainer {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.Contact .textContainer h1 {
+    font-size: 60px;
+}
+
+.Contact .formContainer {
+    flex: 1;
+}
+
+.formContainer form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.formContainer form input,textarea {
+    padding: 15px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    border-radius: 5px;
+}
+
+.formContainer form button {
+    padding: 15px;
+    border: none;
+    background-color: orange;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 20px;
+}

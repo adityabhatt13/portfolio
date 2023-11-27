@@ -1,0 +1,48 @@
+.Hero {
+    height: calc(100vh - 100px);
+    overflow: hidden;
+    background: linear-gradient(180deg, #0c0c1d, #111132);
+    position: relative;
+}
+
+.Hero .wrapper {
+    max-width: 1000px;
+    height: 100%;
+    margin: auto;
+}
+
+.Hero .textContainer {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+}
+
+.Hero img {
+    height: 80%;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.Hero .buttons a button {
+    padding: 20px;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: transparent;
+    color: white;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.Hero .slidingTextContainer {
+    position: absolute;
+    font-size: 50vh;
+    bottom: 0;
+    white-space: nowrap;
+    color: #ffffff09;
+    width: 50%;
+    font-weight: bold;
+    z-index: -100;
+}

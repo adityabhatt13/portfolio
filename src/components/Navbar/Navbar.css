@@ -1,0 +1,26 @@
+.Navbar {
+    height: 100px;
+}
+
+.Navbar .wrapper {
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.Navbar span {
+    font-weight: bold;
+}
+
+.Navbar .social {
+    display: flex;
+    gap: 20px;
+}
+
+.Navbar .social img {
+    width: 20px;
+    height: 20px;
+}
