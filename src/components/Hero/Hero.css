@@ -26,6 +26,10 @@
     right: 0;
 }
 
+.Hero .buttons {
+    z-index: 10;
+}
+
 .Hero .buttons a button {
     padding: 20px;
     border: 1px solid white;
@@ -34,6 +38,7 @@
     color: white;
     margin-right: 20px;
     cursor: pointer;
+    
 }
 
 .Hero .slidingTextContainer {
@@ -44,5 +49,4 @@
     color: #ffffff09;
     width: 50%;
     font-weight: bold;
-    z-index: -100;
 }
