@@ -1,4 +1,5 @@
-# Live Preview : https://adityabhatt-portfolio.netlify.app
+# Live Preview
+https://adityabhatt-portfolio.netlify.app
 
 # Getting Started with Create React App
 
